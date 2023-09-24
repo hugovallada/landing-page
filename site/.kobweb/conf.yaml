@@ -1,0 +1,14 @@
+site:
+  title: "LandingPage"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/hugovallada.js"
+      api: "build/libs/hugovallada.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/hugovallada.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
